@@ -8,9 +8,7 @@ public class PersonTest {
 
     @Test
     public void shouldReturnHelloWorld() {
-        Person ewan = new Person();
-
-        ewan.setName("Ewan", "Isdumb");
+        Person ewan = new Person("Ewan", "Isdumb");
 
         String name = ewan.getName();
 
